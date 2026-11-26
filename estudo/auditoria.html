@@ -1,0 +1,38 @@
+<p>Todos os números foram recalculados por um auditor independente (outro agente de IA, instruído a ser adversarial), com código próprio, direto dos arquivos DBF do DATASUS: 1.469.142 óbitos por agressão no SIM (1996–2025) e 4.646.933 notificações no SINAN (2009–2024). O auditor não usou o código da análise principal. Depois houve uma segunda rodada de perguntas e respostas sobre os pontos de divergência.</p>
+<h3>Afirmações verificadas</h3>
+<table><tr><th>Afirmação</th><th>Resultado da auditoria</th></tr>
+<tr><td>SIM: 121.405 mulheres mortas por agressão, 1996–2025; 11,08 por dia</td><td>Confirmada (57 datas inválidas descartadas, todas de 1996–2002)</td></tr>
+<tr><td>1º de janeiro +94% (mulheres); Natal +53%; 24/12 +15%; 31/12 +6%</td><td>Confirmada. IC bootstrap por ano: 1/1 +79% a +109%; Natal +38% a +70%. O 31/12 não é estatisticamente diferente de um dia médio</td></tr>
+<tr><td>1/1 é a data mais letal e o Natal a segunda, para mulheres e homens</td><td>Confirmada. A terceira data fica bem abaixo (+20% mulheres; +21% homens)</td></tr>
+<tr><td>1/1 acima da média em 30 de 30 anos</td><td>Confirmada (mínimo 1,22x; mediana 1,83x)</td></tr>
+<tr><td>Controle de dia da semana</td><td>Confirmada: +93,8%</td></tr>
+<tr><td>Madrugada do 1/1: 139 contra 41,9 (2006–2025)</td><td>Confirmada; mantém-se excluindo horas arredondadas (83 contra 25,4)</td></tr>
+<tr><td>Local: 28,8% em domicílio no 1/1 e no resto do ano</td><td>Confirmada</td></tr>
+<tr><td>Tendência: +108%, +96%, +79% por década</td><td>Confirmada</td></tr>
+<tr><td>Homens: 1/1 +90%; Natal +66%</td><td>Confirmada</td></tr>
+<tr><td>SINAN, parceiro ou ex: 143,1/dia; 1/1 +110%; 2/1 −6%; outros dias 1 −5%</td><td>Confirmada. <b>Intervalo corrigido</b> (ver abaixo)</td></tr>
+<tr><td>Desconhecido +113%; pai/mãe −12%; todas +75%; homens +59%</td><td>Confirmada</td></tr>
+<tr><td>2023–2024: 201/dia; 1/1 450; Natal 404,5</td><td>Confirmada</td></tr>
+<tr><td>95% dos agressores parceiros são homens; residência 75% no 1/1 e 80% no resto</td><td>Confirmada</td></tr>
+</table>
+<h3>Correções feitas por causa da auditoria</h3>
+<ol>
+<li><b>Intervalo de confiança do SINAN.</b> O intervalo de Poisson (+102% a +118%) ignorava a variação entre anos, de 1,5x a 3,1x. O intervalo correto, por bootstrap de anos, é +83% a +137%.</li>
+<li><b>Comparador do álcool.</b> "55% num dia comum" era a média de todos os dias, incluindo fins de semana. Num dia útil sem feriado, a suspeita de álcool é de 48%.</li>
+<li><b>Comparador da madrugada.</b> Contra uma noite comum, a madrugada do 1/1 tem 3,3 vezes as mortes de mulheres; contra uma madrugada de domingo, 2,2 vezes. O relatório agora mostra os dois.</li>
+<li><b>Composição.</b> A versão anterior dizia que a agressão por parceiro "ganha peso" no 1/1 (40% → 49% das agressões a mulheres). A auditoria mostrou que isso vem quase todo da queda da violência contra crianças. Entre mulheres adultas, a fatia do parceiro quase não muda (52% → 56%). A afirmação foi retirada.</li>
+<li><b>Especificidade de gênero.</b> O pico do 1/1 é geral: a fatia de mulheres entre as vítimas é a mesma no 1/1 e no resto do ano, tanto no SIM (8,4% contra 8,3%) quanto no SINAN (72% contra 70%). O texto foi reescrito para não sugerir que o aumento é maior para mulheres.</li>
+<li><b>Período do vídeo.</b> O vídeo mostrava +94% (1996–2025) ao lado de relógios de 2016–2024. Agora usa +84% (2016–2024), coerente com o relógio.</li>
+<li><b>Escalas no vídeo.</b> Pontos de 1 morte ao lado de pontos de 10 atendimentos pareciam a mesma quantidade. As agressões agora são anéis, com legenda fixa na tela.</li>
+<li><b>Hora do óbito.</b> O vídeo agora diz "na hora do óbito" e "só registros com hora".</li>
+</ol>
+<h3>Pontos verificados que não mudaram as conclusões</h3>
+<ul>
+<li><b>Filtro de data do SINAN.</b> O 1/1 é robusto a qualquer janela de notificação (de +92% a +115%). O Natal é sensível (de +55% a +94%).</li>
+<li><b>Viés de quem notifica no feriado.</b> Não foi detectado no 1/1. No Natal, cerca de 4%.</li>
+<li><b>Duplicatas.</b> Desprezíveis (0,14%).</li>
+<li><b>2025 preliminar.</b> A queda de 2025 é uniforme entre os meses. Sem 2025, o 1/1 das mulheres fica em +96%.</li>
+<li><b>Data do óbito no SIM.</b> As mortes do 1/1 em hospital (24,5%) têm o mesmo excesso das mortes em casa ou na rua, o que indica agressões próximas da data.</li>
+<li><b>Deslocamento.</b> No SINAN, o 31/12 fica abaixo do normal (−13%), inclusive à noite. Somando 31/12 e 1/1, o excesso dos dois dias é de cerca de +50% (SIM e SINAN).</li>
+</ul>
+<p class="small">Os scripts da auditoria estão guardados junto com os do estudo. As pequenas diferenças entre os números do auditor e os do relatório vêm de definições, como o controle de dia da semana (+93% ano a ano ou +99% no período todo) e o álcool em dia útil (49% ou 48%, conforme a lista de feriados). Nenhuma delas muda as conclusões.</p>

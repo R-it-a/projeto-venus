@@ -1,0 +1,1141 @@
+{
+ "sim_mulheres": {
+  "total": 121405,
+  "por_ano": 4047,
+  "por_dia": 11.1,
+  "ano_a_ano": {
+   "1996": {
+    "total": 3670,
+    "jan1": 23,
+    "natal": 15
+   },
+   "1997": {
+    "total": 3572,
+    "jan1": 28,
+    "natal": 27
+   },
+   "1998": {
+    "total": 3485,
+    "jan1": 15,
+    "natal": 18
+   },
+   "1999": {
+    "total": 3524,
+    "jan1": 15,
+    "natal": 11
+   },
+   "2000": {
+    "total": 3743,
+    "jan1": 17,
+    "natal": 17
+   },
+   "2001": {
+    "total": 3851,
+    "jan1": 18,
+    "natal": 19
+   },
+   "2002": {
+    "total": 3867,
+    "jan1": 17,
+    "natal": 17
+   },
+   "2003": {
+    "total": 3937,
+    "jan1": 30,
+    "natal": 24
+   },
+   "2004": {
+    "total": 3830,
+    "jan1": 27,
+    "natal": 13
+   },
+   "2005": {
+    "total": 3884,
+    "jan1": 23,
+    "natal": 13
+   },
+   "2006": {
+    "total": 4022,
+    "jan1": 24,
+    "natal": 16
+   },
+   "2007": {
+    "total": 3772,
+    "jan1": 19,
+    "natal": 9
+   },
+   "2008": {
+    "total": 4023,
+    "jan1": 22,
+    "natal": 19
+   },
+   "2009": {
+    "total": 4260,
+    "jan1": 20,
+    "natal": 22
+   },
+   "2010": {
+    "total": 4465,
+    "jan1": 19,
+    "natal": 18
+   },
+   "2011": {
+    "total": 4512,
+    "jan1": 24,
+    "natal": 27
+   },
+   "2012": {
+    "total": 4719,
+    "jan1": 25,
+    "natal": 26
+   },
+   "2013": {
+    "total": 4762,
+    "jan1": 19,
+    "natal": 19
+   },
+   "2014": {
+    "total": 4832,
+    "jan1": 32,
+    "natal": 18
+   },
+   "2015": {
+    "total": 4616,
+    "jan1": 32,
+    "natal": 10
+   },
+   "2016": {
+    "total": 4635,
+    "jan1": 23,
+    "natal": 17
+   },
+   "2017": {
+    "total": 4928,
+    "jan1": 35,
+    "natal": 20
+   },
+   "2018": {
+    "total": 4512,
+    "jan1": 22,
+    "natal": 14
+   },
+   "2019": {
+    "total": 3728,
+    "jan1": 17,
+    "natal": 18
+   },
+   "2020": {
+    "total": 3822,
+    "jan1": 13,
+    "natal": 25
+   },
+   "2021": {
+    "total": 3844,
+    "jan1": 19,
+    "natal": 14
+   },
+   "2022": {
+    "total": 3788,
+    "jan1": 21,
+    "natal": 11
+   },
+   "2023": {
+    "total": 3887,
+    "jan1": 22,
+    "natal": 12
+   },
+   "2024": {
+    "total": 3622,
+    "jan1": 13,
+    "natal": 9
+   },
+   "2025": {
+    "total": 3293,
+    "jan1": 11,
+    "natal": 12
+   }
+  },
+  "jan1": {
+   "n": 645,
+   "media": 21.5,
+   "pct": 94,
+   "ic": [
+    79,
+    110
+   ]
+  },
+  "natal": {
+   "n": 510,
+   "media": 17.0,
+   "pct": 53,
+   "ic": [
+    40,
+    67
+   ]
+  },
+  "vespera_natal": {
+   "n": 383,
+   "media": 12.8,
+   "pct": 15,
+   "ic": [
+    4,
+    27
+   ]
+  },
+  "reveillon": {
+   "n": 353,
+   "media": 11.8,
+   "pct": 6,
+   "ic": [
+    -5,
+    18
+   ]
+  },
+  "casa": 28.8,
+  "casa_jan1": {
+   "n": 186,
+   "media": 6.2,
+   "pct": 94,
+   "ic": [
+    67,
+    124
+   ]
+  },
+  "faca": 23.7,
+  "arma_fogo": 50.6,
+  "faca_jan1": 27.8,
+  "hora_cobertura_pct": 74,
+  "virada_por_hora_2006_2025": {
+   "31dez": [
+    11,
+    10,
+    12,
+    14,
+    8,
+    14
+   ],
+   "1jan": [
+    25,
+    25,
+    24,
+    21,
+    22,
+    22
+   ],
+   "comum": [
+    7.8,
+    9.3,
+    10.5,
+    10.1,
+    9.8,
+    9.7,
+    9.7,
+    7.8,
+    7.0,
+    6.1,
+    5.7,
+    5.6
+   ]
+  },
+  "madrugada_jan1": 139,
+  "madrugada_comum": 41.9,
+  "madrugada_natal": 90,
+  "jan1_1996_2005": 108,
+  "jan1_2006_2015": 96,
+  "jan1_2016_2025": 79,
+  "jan1_ic_boot": [
+   80,
+   110
+  ],
+  "natal_ic_boot": [
+   38,
+   70
+  ],
+  "jan1_vs_domingo": 46,
+  "jan1_2016_2024": {
+   "n": 185,
+   "media": 20.6,
+   "pct": 84,
+   "ic": [
+    58,
+    112
+   ],
+   "ic_boot": [
+    59,
+    111
+   ]
+  },
+  "natal_2016_2024": {
+   "n": 140,
+   "media": 15.6,
+   "pct": 39,
+   "ic": [
+    17,
+    64
+   ]
+  },
+  "janela_2006_2025": {
+   "virada": 10.4,
+   "comum": 4.96,
+   "sab_dom": 6.66,
+   "x_comum": 2.1,
+   "x_sab": 1.6
+  },
+  "janela_2016_2024": {
+   "virada": 10.4,
+   "comum": 5.09,
+   "sab_dom": 6.64,
+   "x_comum": 2.1,
+   "x_sab": 1.6
+  },
+  "pct_mulheres_jan1_vs_resto": [
+   8.4,
+   8.3
+  ]
+ },
+ "sim_homens": {
+  "total": 1345292,
+  "por_ano": 44843,
+  "por_dia": 122.8,
+  "ano_a_ano": {
+   "1996": {
+    "total": 35071,
+    "jan1": 165,
+    "natal": 235
+   },
+   "1997": {
+    "total": 36782,
+    "jan1": 207,
+    "natal": 201
+   },
+   "1998": {
+    "total": 38258,
+    "jan1": 231,
+    "natal": 185
+   },
+   "1999": {
+    "total": 39301,
+    "jan1": 216,
+    "natal": 214
+   },
+   "2000": {
+    "total": 41583,
+    "jan1": 218,
+    "natal": 203
+   },
+   "2001": {
+    "total": 44040,
+    "jan1": 205,
+    "natal": 200
+   },
+   "2002": {
+    "total": 45775,
+    "jan1": 223,
+    "natal": 234
+   },
+   "2003": {
+    "total": 47082,
+    "jan1": 296,
+    "natal": 288
+   },
+   "2004": {
+    "total": 44519,
+    "jan1": 253,
+    "natal": 250
+   },
+   "2005": {
+    "total": 43665,
+    "jan1": 275,
+    "natal": 209
+   },
+   "2006": {
+    "total": 45060,
+    "jan1": 233,
+    "natal": 216
+   },
+   "2007": {
+    "total": 43886,
+    "jan1": 229,
+    "natal": 187
+   },
+   "2008": {
+    "total": 46024,
+    "jan1": 255,
+    "natal": 250
+   },
+   "2009": {
+    "total": 47109,
+    "jan1": 264,
+    "natal": 237
+   },
+   "2010": {
+    "total": 47749,
+    "jan1": 287,
+    "natal": 237
+   },
+   "2011": {
+    "total": 47619,
+    "jan1": 223,
+    "natal": 213
+   },
+   "2012": {
+    "total": 51544,
+    "jan1": 316,
+    "natal": 254
+   },
+   "2013": {
+    "total": 51937,
+    "jan1": 247,
+    "natal": 266
+   },
+   "2014": {
+    "total": 54736,
+    "jan1": 288,
+    "natal": 260
+   },
+   "2015": {
+    "total": 53424,
+    "jan1": 292,
+    "natal": 242
+   },
+   "2016": {
+    "total": 56409,
+    "jan1": 290,
+    "natal": 208
+   },
+   "2017": {
+    "total": 58713,
+    "jan1": 351,
+    "natal": 227
+   },
+   "2018": {
+    "total": 51271,
+    "jan1": 249,
+    "natal": 148
+   },
+   "2019": {
+    "total": 40231,
+    "jan1": 204,
+    "natal": 159
+   },
+   "2020": {
+    "total": 43742,
+    "jan1": 170,
+    "natal": 160
+   },
+   "2021": {
+    "total": 41644,
+    "jan1": 197,
+    "natal": 144
+   },
+   "2022": {
+    "total": 40504,
+    "jan1": 159,
+    "natal": 117
+   },
+   "2023": {
+    "total": 39459,
+    "jan1": 164,
+    "natal": 106
+   },
+   "2024": {
+    "total": 36260,
+    "jan1": 142,
+    "natal": 138
+   },
+   "2025": {
+    "total": 31895,
+    "jan1": 154,
+    "natal": 137
+   }
+  },
+  "jan1": {
+   "n": 7003,
+   "media": 233.4,
+   "pct": 90,
+   "ic": [
+    86,
+    95
+   ]
+  },
+  "natal": {
+   "n": 6125,
+   "media": 204.2,
+   "pct": 66,
+   "ic": [
+    62,
+    71
+   ]
+  },
+  "vespera_natal": {
+   "n": 4087,
+   "media": 136.2,
+   "pct": 11,
+   "ic": [
+    8,
+    14
+   ]
+  },
+  "reveillon": {
+   "n": 4098,
+   "media": 136.6,
+   "pct": 11,
+   "ic": [
+    8,
+    15
+   ]
+  },
+  "casa": 10.4,
+  "casa_jan1": {
+   "n": 770,
+   "media": 25.7,
+   "pct": 100,
+   "ic": [
+    86,
+    115
+   ]
+  },
+  "faca": 14.0,
+  "arma_fogo": 71.7,
+  "faca_jan1": 25.9,
+  "hora_cobertura_pct": 75,
+  "virada_por_hora_2006_2025": {
+   "31dez": [
+    96,
+    103,
+    152,
+    113,
+    157,
+    192
+   ],
+   "1jan": [
+    208,
+    227,
+    227,
+    278,
+    271,
+    221
+   ],
+   "comum": [
+    92.9,
+    116.6,
+    134.4,
+    132.8,
+    126.7,
+    120.5,
+    105.0,
+    85.8,
+    74.5,
+    67.6,
+    59.6,
+    57.1
+   ]
+  },
+  "madrugada_jan1": 1432,
+  "madrugada_comum": 449.6,
+  "madrugada_natal": 1074,
+  "jan1_1996_2005": 101,
+  "jan1_2006_2015": 97,
+  "jan1_2016_2025": 73
+ },
+ "sinan_total_nao_autoprov": 2566808,
+ "sinan_pct_confiavel": 64,
+ "sinan_mulheres_todas": {
+  "n": 1162016,
+  "por_dia": 353.4,
+  "jan1": {
+   "n": 5555,
+   "media": 617.2,
+   "pct": 75,
+   "ic": [
+    70,
+    79
+   ]
+  },
+  "natal": {
+   "n": 4998,
+   "media": 555.3,
+   "pct": 57,
+   "ic": [
+    53,
+    62
+   ]
+  },
+  "jan2": {
+   "n": 2777,
+   "media": 308.6,
+   "pct": -13,
+   "ic": [
+    -16,
+    -9
+   ]
+  },
+  "outros_dia1": -4,
+  "domingo": 28,
+  "jan1_vs_dia_semana": 69,
+  "alcool_comum": 43,
+  "alcool_domingo": 59,
+  "alcool_jan1": 69,
+  "alcool_natal": 67,
+  "alcool_ign_pct": 29,
+  "ano_a_ano_jan1": {
+   "2016": {
+    "jan1": 374,
+    "media_dia": 246.7
+   },
+   "2017": {
+    "jan1": 456,
+    "media_dia": 296.3
+   },
+   "2018": {
+    "jan1": 595,
+    "media_dia": 328.1
+   },
+   "2019": {
+    "jan1": 672,
+    "media_dia": 343.1
+   },
+   "2020": {
+    "jan1": 760,
+    "media_dia": 286.1
+   },
+   "2021": {
+    "jan1": 507,
+    "media_dia": 314.2
+   },
+   "2022": {
+    "jan1": 481,
+    "media_dia": 370.2
+   },
+   "2023": {
+    "jan1": 819,
+    "media_dia": 489.4
+   },
+   "2024": {
+    "jan1": 891,
+    "media_dia": 506.6
+   }
+  }
+ },
+ "sinan_mulheres_parceiro": {
+  "n": 470515,
+  "por_dia": 143.1,
+  "jan1": {
+   "n": 2701,
+   "media": 300.1,
+   "pct": 110,
+   "ic": [
+    102,
+    118
+   ]
+  },
+  "natal": {
+   "n": 2464,
+   "media": 273.8,
+   "pct": 91,
+   "ic": [
+    84,
+    99
+   ]
+  },
+  "jan2": {
+   "n": 1210,
+   "media": 134.4,
+   "pct": -6,
+   "ic": [
+    -11,
+    -1
+   ]
+  },
+  "outros_dia1": -5,
+  "domingo": 50,
+  "jan1_vs_dia_semana": 99,
+  "alcool_comum": 55,
+  "alcool_domingo": 66,
+  "alcool_jan1": 75,
+  "alcool_natal": 73,
+  "alcool_ign_pct": 21,
+  "ano_a_ano_jan1": {
+   "2016": {
+    "jan1": 170,
+    "media_dia": 95.5
+   },
+   "2017": {
+    "jan1": 205,
+    "media_dia": 111.9
+   },
+   "2018": {
+    "jan1": 244,
+    "media_dia": 131.1
+   },
+   "2019": {
+    "jan1": 336,
+    "media_dia": 139.8
+   },
+   "2020": {
+    "jan1": 375,
+    "media_dia": 121.7
+   },
+   "2021": {
+    "jan1": 240,
+    "media_dia": 133.5
+   },
+   "2022": {
+    "jan1": 231,
+    "media_dia": 152.8
+   },
+   "2023": {
+    "jan1": 431,
+    "media_dia": 199.7
+   },
+   "2024": {
+    "jan1": 469,
+    "media_dia": 202.0
+   }
+  },
+  "hora_cobertura_pct": 64,
+  "minuto_00_pct": 59,
+  "virada_por_hora_2016_2024": {
+   "31dez": [
+    39,
+    37,
+    48,
+    49,
+    54,
+    79
+   ],
+   "1jan": [
+    95,
+    116,
+    100,
+    137,
+    115,
+    108
+   ],
+   "comum": [
+    41.7,
+    49.7,
+    64.5,
+    55.2,
+    61.5,
+    54.6,
+    47.2,
+    35.5,
+    30.1,
+    24.9,
+    20.2,
+    17.1
+   ]
+  },
+  "madrugada_jan1": 671,
+  "madrugada_comum": 175.0,
+  "casa_pct": {
+   "comum": 79.5,
+   "jan1": 75.2
+  },
+  "via_publica_pct": {
+   "comum": 9.6,
+   "jan1": 13.5
+  },
+  "bar_pct": {
+   "comum": 1.7,
+   "jan1": 2.1
+  },
+  "autor_homem_pct": 94.6,
+  "faca_pct": {
+   "comum": 8.9,
+   "jan1": 11.4
+  },
+  "fisica_pct": {
+   "comum": 87.7,
+   "jan1": 95.1
+  },
+  "2023_2024": {
+   "por_dia": 200.9,
+   "jan1_media": 450.0,
+   "natal_media": 404.5
+  },
+  "jan1_ic_boot": [
+   83,
+   137
+  ],
+  "jan1_vs_domingo": 40,
+  "alcool_dia_util": 48,
+  "janela": {
+   "virada": 108.6,
+   "comum": 55.78,
+   "sab_dom": 79.72,
+   "x_comum": 1.9,
+   "x_sab": 1.4
+  },
+  "hora_cobertura_jan1_pct": 70
+ },
+ "sinan_mulheres_desconhecido": {
+  "n": 112628,
+  "por_dia": 34.3,
+  "jan1": {
+   "n": 658,
+   "media": 73.1,
+   "pct": 113,
+   "ic": [
+    97,
+    130
+   ]
+  },
+  "natal": {
+   "n": 478,
+   "media": 53.1,
+   "pct": 55,
+   "ic": [
+    41,
+    70
+   ]
+  },
+  "jan2": {
+   "n": 251,
+   "media": 27.9,
+   "pct": -19,
+   "ic": [
+    -28,
+    -8
+   ]
+  },
+  "outros_dia1": -1,
+  "domingo": 46,
+  "jan1_vs_dia_semana": 103,
+  "alcool_comum": 48,
+  "alcool_domingo": 63,
+  "alcool_jan1": 70,
+  "alcool_natal": 64,
+  "alcool_ign_pct": 37,
+  "ano_a_ano_jan1": {
+   "2016": {
+    "jan1": 53,
+    "media_dia": 27.5
+   },
+   "2017": {
+    "jan1": 55,
+    "media_dia": 32.6
+   },
+   "2018": {
+    "jan1": 93,
+    "media_dia": 33.2
+   },
+   "2019": {
+    "jan1": 87,
+    "media_dia": 34.0
+   },
+   "2020": {
+    "jan1": 76,
+    "media_dia": 25.6
+   },
+   "2021": {
+    "jan1": 48,
+    "media_dia": 26.9
+   },
+   "2022": {
+    "jan1": 50,
+    "media_dia": 33.4
+   },
+   "2023": {
+    "jan1": 90,
+    "media_dia": 46.1
+   },
+   "2024": {
+    "jan1": 106,
+    "media_dia": 48.9
+   }
+  }
+ },
+ "sinan_mulheres_pai_mae": {
+  "n": 155520,
+  "por_dia": 47.3,
+  "jan1": {
+   "n": 373,
+   "media": 41.4,
+   "pct": -12,
+   "ic": [
+    -21,
+    -3
+   ]
+  },
+  "natal": {
+   "n": 402,
+   "media": 44.7,
+   "pct": -6,
+   "ic": [
+    -15,
+    4
+   ]
+  },
+  "jan2": {
+   "n": 347,
+   "media": 38.6,
+   "pct": -18,
+   "ic": [
+    -27,
+    -9
+   ]
+  },
+  "outros_dia1": -6,
+  "domingo": -17,
+  "jan1_vs_dia_semana": -11,
+  "alcool_comum": 22,
+  "alcool_domingo": 30,
+  "alcool_jan1": 36,
+  "alcool_natal": 38,
+  "alcool_ign_pct": 35,
+  "ano_a_ano_jan1": {
+   "2016": {
+    "jan1": 24,
+    "media_dia": 30.6
+   },
+   "2017": {
+    "jan1": 31,
+    "media_dia": 38.1
+   },
+   "2018": {
+    "jan1": 44,
+    "media_dia": 43.0
+   },
+   "2019": {
+    "jan1": 40,
+    "media_dia": 44.5
+   },
+   "2020": {
+    "jan1": 46,
+    "media_dia": 37.6
+   },
+   "2021": {
+    "jan1": 31,
+    "media_dia": 44.6
+   },
+   "2022": {
+    "jan1": 32,
+    "media_dia": 49.0
+   },
+   "2023": {
+    "jan1": 60,
+    "media_dia": 64.6
+   },
+   "2024": {
+    "jan1": 65,
+    "media_dia": 73.7
+   }
+  }
+ },
+ "sinan_homens_todas": {
+  "n": 487139,
+  "por_dia": 148.2,
+  "jan1": {
+   "n": 2124,
+   "media": 236.0,
+   "pct": 59,
+   "ic": [
+    53,
+    66
+   ]
+  },
+  "natal": {
+   "n": 2009,
+   "media": 223.2,
+   "pct": 51,
+   "ic": [
+    44,
+    57
+   ]
+  },
+  "jan2": {
+   "n": 1113,
+   "media": 123.7,
+   "pct": -17,
+   "ic": [
+    -21,
+    -11
+   ]
+  },
+  "outros_dia1": -3,
+  "domingo": 22,
+  "jan1_vs_dia_semana": 57,
+  "alcool_comum": 36,
+  "alcool_domingo": 52,
+  "alcool_jan1": 67,
+  "alcool_natal": 62,
+  "alcool_ign_pct": 32,
+  "ano_a_ano_jan1": {
+   "2016": {
+    "jan1": 112,
+    "media_dia": 92.7
+   },
+   "2017": {
+    "jan1": 171,
+    "media_dia": 116.0
+   },
+   "2018": {
+    "jan1": 196,
+    "media_dia": 125.2
+   },
+   "2019": {
+    "jan1": 269,
+    "media_dia": 149.4
+   },
+   "2020": {
+    "jan1": 299,
+    "media_dia": 122.4
+   },
+   "2021": {
+    "jan1": 232,
+    "media_dia": 130.9
+   },
+   "2022": {
+    "jan1": 181,
+    "media_dia": 156.4
+   },
+   "2023": {
+    "jan1": 326,
+    "media_dia": 213.5
+   },
+   "2024": {
+    "jan1": 338,
+    "media_dia": 226.8
+   }
+  }
+ },
+ "sinan_homens_parceiro": {
+  "n": 53455,
+  "por_dia": 16.3,
+  "jan1": {
+   "n": 330,
+   "media": 36.7,
+   "pct": 126,
+   "ic": [
+    102,
+    151
+   ]
+  },
+  "natal": {
+   "n": 299,
+   "media": 33.2,
+   "pct": 104,
+   "ic": [
+    82,
+    129
+   ]
+  },
+  "jan2": {
+   "n": 131,
+   "media": 14.6,
+   "pct": -10,
+   "ic": [
+    -25,
+    6
+   ]
+  },
+  "outros_dia1": 3,
+  "domingo": 66,
+  "jan1_vs_dia_semana": 111,
+  "alcool_comum": 45,
+  "alcool_domingo": 55,
+  "alcool_jan1": 71,
+  "alcool_natal": 60,
+  "alcool_ign_pct": 21,
+  "ano_a_ano_jan1": {
+   "2016": {
+    "jan1": 10,
+    "media_dia": 9.5
+   },
+   "2017": {
+    "jan1": 30,
+    "media_dia": 11.7
+   },
+   "2018": {
+    "jan1": 25,
+    "media_dia": 14.2
+   },
+   "2019": {
+    "jan1": 57,
+    "media_dia": 15.9
+   },
+   "2020": {
+    "jan1": 42,
+    "media_dia": 14.0
+   },
+   "2021": {
+    "jan1": 28,
+    "media_dia": 15.6
+   },
+   "2022": {
+    "jan1": 24,
+    "media_dia": 18.4
+   },
+   "2023": {
+    "jan1": 64,
+    "media_dia": 23.7
+   },
+   "2024": {
+    "jan1": 50,
+    "media_dia": 23.3
+   }
+  },
+  "autor_mulher_pct": 70.4
+ },
+ "sinan_composicao_todas": {
+  "total_jan1": 75,
+  "parceiro_pct": [
+   48.6,
+   40.5
+  ]
+ },
+ "sinan_composicao_adultas": {
+  "total_jan1": 100,
+  "parceiro_pct": [
+   55.6,
+   52.3
+  ]
+ },
+ "sinan_pct_mulheres_jan1_vs_resto": [
+  72.3,
+  70.5
+ ],
+ "sinan_31dez_parceiro": {
+  "n": 1115,
+  "media": 123.9,
+  "pct": -13,
+  "ic": [
+   -18,
+   -8
+  ]
+ },
+ "sim_mulheres_relogio_2016_2024": {
+  "31dez": [
+   4,
+   3,
+   8,
+   7,
+   5,
+   4
+  ],
+  "1jan": [
+   14,
+   14,
+   9,
+   11,
+   6,
+   9
+  ],
+  "comum": [
+   3.6,
+   4.4,
+   4.9,
+   4.8,
+   4.5,
+   4.5,
+   4.3,
+   3.6,
+   3.3,
+   2.9,
+   2.6,
+   2.6
+  ]
+ }
+}

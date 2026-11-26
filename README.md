@@ -12,13 +12,42 @@ São dois relógios, que vão das 18h às 6h. Em cima fica a virada do ano (31/1
 
 | | Valor |
 |---|---|
-| Mulheres mortas por agressão por ano (média 1996–2025) | ~4 mil (4.046) |
+| Mulheres mortas por agressão por ano (média 1996–2025) | ~4 mil (4.047) |
 | Por dia, em média | 11 |
-| No 1º de janeiro, em média | 22 (+95%) |
+| No 1º de janeiro, em média | 21,5 (+94%) |
 | Madrugada de 1º de janeiro (0h–6h), soma 2006–2025 | 139 |
 | Madrugada comum, mesma base | 42 |
 
-O vídeo final está em [`virada_stories.mp4`](virada_stories.mp4).
+O primeiro vídeo publicado está em [`virada_stories.mp4`](virada_stories.mp4). Ele diz "95% a mais"; o número correto é **94%** (um erro de leitura de datas incompletas, corrigido no estudo abaixo).
+
+## Estudo completo (novembro de 2026)
+
+Depois do primeiro vídeo, os números foram refeitos **direto dos arquivos oficiais do DATASUS** e conferidos por uma auditoria independente. O estudo separa três coisas:
+
+- **A. Mortes de mulheres por agressão** (SIM, 1996–2025): o 1º de janeiro tem +94% em relação a um dia médio; o Natal, +53%. Com os homens acontece o mesmo (+90%).
+- **B. Agressões contra mulheres atendidas na saúde** (SINAN, 2016–2024): agressões de parceiro ou ex ficam em cerca do dobro no 1º de janeiro (+110%); suspeita de álcool do agressor em 75% dos casos informados, contra 48% num dia útil.
+- **C. Feminicídio** (Anuário Brasileiro de Segurança Pública 2026): não existe dado público de feminicídio por dia.
+
+| Arquivo | O que é |
+|---|---|
+| [`Projeto Venus - relatorio.pdf`](Projeto%20Venus%20-%20relatorio.pdf) | Relatório com fontes, método, armadilhas dos dados e auditoria |
+| [`virada_v3_stories.mp4`](virada_v3_stories.mp4) | Vídeo novo: **média por noite**, 2016–2024 (pontos amarelos = agressões de parceiro ou ex; vermelhos = mortes por agressão) |
+| [`virada_v4_soma_stories.mp4`](virada_v4_soma_stories.mp4) | Mesma ideia, com a **soma** de todos os anos |
+| `estudo/` | Extração dos arquivos oficiais, cálculo dos números (`numeros.json`), geração do relatório e scripts da auditoria |
+| `relogio_v2.py`, `relogio_v3.py`, `relogio_v4.py` | Scripts dos vídeos novos |
+
+Arquivos oficiais usados (FTP do DATASUS): `SIM/CID10/DOFET/DOEXTyy.dbc` e `SINAN/DADOS/FINAIS/VIOLBRyy.dbc`.
+
+```bash
+pip install pandas pyarrow numpy pillow imageio-ffmpeg dbfread datasus-dbc
+python -I estudo/extrai_sim.py   <pasta_dbc_sim>   sim_oficial.parquet
+python -I estudo/extrai_sinan.py <pasta_dbc_sinan> sinan_oficial.parquet
+python -I estudo/numeros.py sim_oficial.parquet sinan_oficial.parquet numeros.json
+python -I estudo/gera_relatorio.py numeros.json relatorio.html estudo/auditoria.html
+python -I relogio_v3.py numeros.json virada_media.mp4
+```
+
+Os scripts em `estudo/auditoria/` esperam os dados numa pasta `dados/`.
 
 ## Fonte dos dados
 
